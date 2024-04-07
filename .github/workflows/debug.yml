@@ -72,7 +72,7 @@ jobs:
       - name: upload to telegram
         if: ${{  success() }}
         env:
-          CHAT_ID: "-1001597117128"
+          CHAT_ID: "-1001748299757"
           MESSAGE_THREAD_ID: "282263"
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
